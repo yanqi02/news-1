@@ -1,0 +1,8 @@
+[21:00:23:098] [INFO] - org.hibernate.Version.logVersion(Version.java:37) - HHH000412: Hibernate Core {5.0.10.Final}
+[21:00:23:110] [INFO] - org.hibernate.cfg.Environment.<clinit>(Environment.java:213) - HHH000206: hibernate.properties not found
+[21:00:23:115] [INFO] - org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:317) - HHH000021: Bytecode provider name : javassist
+[21:00:23:390] [INFO] - org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[21:00:24:245] [INFO] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:127) - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+[21:00:24:245] [INFO] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:136) - HHH10001001: Connection properties: {user=root, password=****}
+[21:00:24:245] [INFO] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator(DriverManagerConnectionProviderImpl.java:141) - HHH10001003: Autocommit mode: false
+[21:00:24:248] [INFO] - org.hibernate.engine.jdbc.connections.internal.PooledConnections.<init>(PooledConnections.java:39) - HHH000115: Hibernate connection pool size: 1 (min=1)

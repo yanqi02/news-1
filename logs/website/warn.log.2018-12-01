@@ -1,0 +1,1 @@
+[21:00:24:239] [WARN] - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:71) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)

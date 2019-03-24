@@ -16,8 +16,6 @@
         <!-- Database connection settings -->
         <property name="connection.url">jdbc:mysql://localhost:3306/test</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.username">root</property>
-        <property name="connection.password">123456</property>
 
         <!-- JDBC connection pool (use the built-in) -->
         <property name="connection.pool_size">1</property>
@@ -34,6 +32,14 @@
         <property name="hbm2ddl.auto">create</property>
 
         <mapping resource="Event.hbm.xml"/>
+        <mapping resource="com/upc/web/entity/News.hbm.xml"/>
+        <mapping class="com.upc.web.entity.News"/>
+        <mapping resource="com/upc/web/entity/User.hbm.xml"/>
+        <mapping class="com.upc.web.entity.User"/>
+        <mapping resource="com/upc/web/entity/Events.hbm.xml"/>
+        <mapping class="com.upc.web.entity.Events"/>
+        <mapping resource="com/upc/web/entity/News.hbm.xml"/>
+        <mapping resource="com/upc/web/entity/User.hbm.xml"/>
 
     </session-factory>
 

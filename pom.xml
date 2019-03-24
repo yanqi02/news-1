@@ -76,6 +76,28 @@
       <version>1.2.17</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
+    <dependency>
+      <groupId>javax.xml.ws</groupId>
+      <artifactId>jaxws-api</artifactId>
+      <version>2.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.dottydingo.service.endpoint/service-endpoint -->
+    <dependency>
+      <groupId>com.dottydingo.service.endpoint</groupId>
+      <artifactId>service-endpoint</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+    <dependency>
+      <groupId>javax.ws.rs</groupId>
+      <artifactId>javax.ws.rs-api</artifactId>
+      <version>2.0</version>
+    </dependency>
+
+
+
+
 
   </dependencies>
 

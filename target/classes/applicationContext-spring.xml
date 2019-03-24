@@ -8,5 +8,7 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
 
 	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="user1" class="com.upc.web.dao.User1"></bean>
+
 
 </beans>

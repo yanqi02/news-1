@@ -80,6 +80,8 @@ public class UserController {
 		return "login";
 	}
 
+
+
 	private boolean checkParams(String[] params) {
 		for (String param : params) {
 			if (param == "" || param == null || param.isEmpty()) {
